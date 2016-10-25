@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="pageObjects.CheckOut_Page"/>
+      <class name="testCases.Framework_002"/>
+      <class name="testCases.Framework_001"/>
+      <class name="utility.ExcelUtils"/>
+      <class name="test.java.NewTest"/>
+      <class name="pageObjects.LogIn_Page"/>
+      <class name="appModules.PaymentDetails_Action"/>
+      <class name="appModules.Confirmation_Action"/>
+      <class name="utility.Constant"/>
+      <class name="utility.Utils"/>
+      <class name="pageObjects.Home_Page"/>
+      <class name="utility.Log"/>
+      <class name="appModules.Verification_Action"/>
+      <class name="utility.Listener"/>
+      <class name="pageObjects.BaseClass"/>
+      <class name="appModules.CheckOut_Action"/>
+      <class name="utility.Listeners"/>
+      <class name="pageObjects.PaymentDetails_Page"/>
+      <class name="pageObjects.ProductListing_Page"/>
+      <class name="pageObjects.Confirmation_Page"/>
+      <class name="appModules.ProductSelect_Action"/>
+      <class name="appModules.SignIn_Action"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testCases.Framework_001">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.Framework_001 -->
+      <class name="test.java.NewTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.java.NewTest -->
+      <class name="testCases.Framework_002">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testCases.Framework_002 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

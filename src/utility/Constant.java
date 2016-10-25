@@ -4,7 +4,7 @@ public class Constant {
 	    public static final String URL = "http://www.onlinestore.toolsqa.com";
 	    public static final String Username = "testuser_1";
 	    public static final String Password ="Test@123";
-		public static final String Path_TestData = "D://ToolsQA Projects//trunk//OnlineStore//src//testData//";
+		public static final String Path_TestData = "C://Selenium//Workspace//OnlineStore//src//testData//";
 		public static final String File_TestData = "TestData.xlsx";
 		
 		//Test Data Sheet Columns
@@ -22,5 +22,5 @@ public class Constant {
 		public static final int Col_Phone = 11;
 		public static final int Col_Email = 12;
 		public static final int Col_Result = 13;
-		public static final String Path_ScreenShot = "D://ToolsQA Projects//trunk//OnlineStore//src//Screenshots//";
+		public static final String Path_ScreenShot = "C://Selenium//Workspace//OnlineStore//src//Screenshots//";
 	}

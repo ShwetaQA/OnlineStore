@@ -102,8 +102,7 @@ public class PaymentDetails_Page extends BaseClass {
     	 element = null;
        	try{
        		element= driver.findElement(By.id("shippingSameBilling"));
-       		Log.info("S"
-       				+ "ame as Billing address check box on Payment Details page is found.");
+       		Log.info("Same as Billing address check box on Payment Details page is found.");
        	}catch (Exception e){
        		Log.error("Same as Billing address check box on Payment Details page is not found");
        		throw(e);
